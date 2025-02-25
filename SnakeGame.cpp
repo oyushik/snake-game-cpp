@@ -93,9 +93,9 @@ void SnakeGame::pauseGame() {
             if (ch != PAUSE)
                 break;
         }
-        gotoxy(MAP_X + (MAP_WIDTH / 2) - 9, MAP_Y, "< PAUSE : PRESS ANY KEY TO RESUME > ");
+        gotoxy(MAP_X + (MAP_WIDTH / 2) - 9, MAP_Y - 1, "< PAUSE : PRESS ANY KEY TO RESUME > ");
         Sleep(400);
-        gotoxy(MAP_X + (MAP_WIDTH / 2) - 9, MAP_Y, "                                    ");
+        gotoxy(MAP_X + (MAP_WIDTH / 2) - 9, MAP_Y - 1, "                                    ");
         Sleep(400);
     }
 }
